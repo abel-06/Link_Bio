@@ -1,4 +1,4 @@
-import imageText from "../../assets/images/UltimoProjeto.png";
+
 
 export const LastProject = () => {
 
@@ -13,7 +13,7 @@ export const LastProject = () => {
             <a href="https://github.com/abel-06/UltimoProjeto" target="_blank">
                 <img 
                     className="projectImage rounded-xl w-[90%] flex center justify-center m-auto"
-                    src={imageText} alt="Imagem do último projeto"/>
+                    src="../../assets/images/UltimoProjeto.png" alt="Imagem do último projeto"/>
             </a>
 
             <h3 className={`textBottom ${textConfig}`}>
